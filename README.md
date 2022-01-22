@@ -17,10 +17,24 @@
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
+### Installation
+
+#### Git download
+1. In Sublime Text, find the `Packages` directory by going to `Preferences->Browse Packages...`.
+2. From the command line, go to the `Packages` directory and clone the repo:
+```
+git clone https://github.com/BrunDerSchwarzmagier/catppuccin-sublime-text.git Catppuccin
+```
+
+#### Manual download
+1. Download the [GitHub repo .zip](https://github.com/BrunDerSchwarzmagier/catppuccin-sublime-text/archive/refs/heads/main.zip).
+2. Unzip into a directory named `Catppuccin`
+3. In Sublime Text, open to the `Packages` directory by going to `Preferences->Browse Packages...`.
+4. Move the unzipped repo directory into the `Packages` directory.
+
+### Activation
+1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select `Catppuccin`.
+2. Go to `Preferences->Select Theme...` and select `Adaptive`.
 
 ## 🙋 FAQ (optional)
 
@@ -29,4 +43,4 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [BrunDerSchwarzmagier](https://github.com/BrunDerSchwarzmagier)
