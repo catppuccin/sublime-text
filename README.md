@@ -29,8 +29,8 @@ git clone https://github.com/BrunDerSchwarzmagier/catppuccin-sublime-text.git Ca
 #### Manual download
 1. Download the [GitHub repo .zip](https://github.com/BrunDerSchwarzmagier/catppuccin-sublime-text/archive/refs/heads/main.zip).
 2. Unzip into a directory named `Catppuccin`
-3. In Sublime Text, open to the `Packages` directory by going to `Preferences->Browse Packages...`.
-4. Move the unzipped repo directory into the `Packages` directory.
+3. In Sublime Text, open the `Packages` directory by going to `Preferences->Browse Packages...`.
+4. Move the `Catppuccin` directory into the `Packages` directory.
 
 ### Activation
 1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select `Catppuccin`.
