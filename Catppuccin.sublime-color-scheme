@@ -259,6 +259,12 @@
             "font_style": "italic"
         },
         {
+            "name": "Variable parameter",
+            "scope": "variable.parameter",
+            "foreground": "var(rosewater)",
+            "font_style": "italic"
+        },
+        {
             "name": "Variable other",
             "scope": "variable.other",
             "foreground": "var(white)",
