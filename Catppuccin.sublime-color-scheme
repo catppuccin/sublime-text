@@ -111,7 +111,7 @@
         },
         {
             "name": "Return",
-            "scope": "keyword.control.flow",
+            "scope": "keyword.control.return, keyword.control.flow.return",
             "foreground": "var(pink)",
             "font_style": "bold"
         },
@@ -164,6 +164,12 @@
             "font_style": "italic"
         },
         {
+            "name": "Storage modifier",
+            "scope": "storage.modifier",
+            "foreground": "var(blue)",
+            "font_style": ""
+        },
+        {
             "name": "Storage type namespace",
             "scope": "entity.name.namespace, meta.path",
             "foreground": "var(rosewater)",
@@ -213,7 +219,7 @@
         },
         {
             "name": "Function argument",
-            "scope": "variable.parameter",
+            "scope": "variable.parameter.function",
             "foreground": "var(rosewater)",
             "font_style": "italic"
         },
@@ -265,12 +271,6 @@
             "font_style": ""
         },
         {
-            "name": "Variable property",
-            "scope": "variable.parameter",
-            "foreground": "var(yellow)",
-            "font_style": "italic"
-        },
-        {
             "name": "Variable language",
             "scope": "variable.language",
             "foreground": "var(teal)",
@@ -308,7 +308,7 @@
         },
         {
             "name": "Markdown literal",
-            "scope": "comment.block, meta.code-fence, markup.raw.code-fence, markup.raw.inline",
+            "scope": "comment.block.markdown, meta.code-fence, markup.raw.code-fence, markup.raw.inline",
             "foreground": "var(teal)",
             "font_style": "italic"
         },
