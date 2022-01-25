@@ -373,6 +373,30 @@
             "font_style": ""
         },
         {
+            "name": "CSS property",
+            "scope": "support.type.property-name.css",
+            "foreground": "var(rosewater)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS constant",
+            "scope": "support.constant.property-value.css",
+            "foreground": "var(white)",
+            "font_style": ""
+        },
+        {
+            "name": "CSS suffix",
+            "scope": "constant.numeric.suffix.css",
+            "foreground": "var(teal)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS variable property",
+            "scope": "variable.other.custom-property.css",
+            "foreground": "var(teal)",
+            "font_style": ""
+        },
+        {
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "var(white)",
