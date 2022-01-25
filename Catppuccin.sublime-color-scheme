@@ -375,7 +375,7 @@
         {
             "name": "CSS property",
             "scope": "support.type.property-name.css",
-            "foreground": "var(rosewater)",
+            "foreground": "var(flamingo)",
             "font_style": "italic"
         },
         {
@@ -386,13 +386,25 @@
         },
         {
             "name": "CSS suffix",
-            "scope": "constant.numeric.suffix.css",
+            "scope": "constant.numeric.suffix.css, keyword.other.unit.css",
             "foreground": "var(teal)",
             "font_style": "italic"
         },
         {
             "name": "CSS variable property",
-            "scope": "variable.other.custom-property.css",
+            "scope": "variable.other.custom-property.name.css, support.type.custom-property.name.css, punctuation.definition.custom-property.css",
+            "foreground": "var(teal)",
+            "font_style": ""
+        },
+        {
+            "name": "SCSS tag",
+            "scope": "entity.name.tag.css",
+            "foreground": "var(lavender)",
+            "font_style": ""
+        },
+        {
+            "name": "SASS variable",
+            "scope": "variable.other.sass",
             "foreground": "var(teal)",
             "font_style": ""
         },
