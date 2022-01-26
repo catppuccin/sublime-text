@@ -6,13 +6,13 @@
 </h3>
 
 <p align="center">
-    <a href="https://github.com/BrunDerSchwarzmagier/sublime-text/stargazers"><img src="https://img.shields.io/github/stars/BrunDerSchwarzmagier/sublime-text?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship style=for-the-badge"></a>
-    <a href="https://github.com/BrunDerSchwarzmagier/sublime-text/issues"><img src="https://img.shields.io/github/issues/BrunDerSchwarzmagier/sublime-text?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
-    <a href="https://github.com/BrunDerSchwarzmagier/sublime-text/contributors"><img src="https://img.shields.io/github/contributors/BrunDerSchwarzmagier/sublime-text?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/sublime-text/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/sublime-text?colorA=1e1e28&colorB=c9cbff&style=for-the-badge&logo=starship style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/sublime-text/issues"><img src="https://img.shields.io/github/issues/catppuccin/sublime-text?colorA=1e1e28&colorB=f7be95&style=for-the-badge"></a>
+    <a href="https://github.com/catppuccin/sublime-text/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/sublime-text?colorA=1e1e28&colorB=b1e1a6&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BrunDerSchwarzmagier/sublime-text/main/assets/ss.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/sublime-text/main/assets/ss.png"/>
 </p>
 
 ## Usage
@@ -23,11 +23,11 @@
 1. In Sublime Text, find the `Packages` directory by going to `Preferences->Browse Packages...`.
 2. From the command line, go to the `Packages` directory and clone the repo:
 ```
-git clone https://github.com/BrunDerSchwarzmagier/sublime-text.git Catppuccin
+git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 ```
 
 #### Manual download
-1. Download the [GitHub repo .zip](https://github.com/BrunDerSchwarzmagier/sublime-text/archive/refs/heads/main.zip).
+1. Download the [GitHub repo .zip](https://github.com/catppuccin/sublime-text/archive/refs/heads/main.zip).
 2. Unzip into a directory named `Catppuccin`.
 3. In Sublime Text, open the `Packages` directory by going to `Preferences->Browse Packages...`.
 4. Move the `Catppuccin` directory into the `Packages` directory.
