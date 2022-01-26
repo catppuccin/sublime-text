@@ -28,7 +28,7 @@ git clone https://github.com/BrunDerSchwarzmagier/sublime-text.git Catppuccin
 
 #### Manual download
 1. Download the [GitHub repo .zip](https://github.com/BrunDerSchwarzmagier/sublime-text/archive/refs/heads/main.zip).
-2. Unzip into a directory named `Catppuccin`
+2. Unzip into a directory named `Catppuccin`.
 3. In Sublime Text, open the `Packages` directory by going to `Preferences->Browse Packages...`.
 4. Move the `Catppuccin` directory into the `Packages` directory.
 
