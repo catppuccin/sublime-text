@@ -36,11 +36,6 @@ git clone https://github.com/BrunDerSchwarzmagier/sublime-text.git Catppuccin
 1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select `Catppuccin`.
 2. Go to `Preferences->Select Theme...` and select `Adaptive`.
 
-## 🙋 FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**
-  A: Run `:help theme`
-
 ## 💝 Thanks to
 
 - [BrunDerSchwarzmagier](https://github.com/BrunDerSchwarzmagier)
