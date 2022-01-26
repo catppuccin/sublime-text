@@ -3,7 +3,6 @@
     "author": "BrunDerSchwarzmagier",
     "variables":
     {
-        "back":"#1b1923",
         "black": "#161320",
         "black2": "#1e1e2e",
         "white": "#d9e0ee",
@@ -28,7 +27,7 @@
     "globals":
     {
         "foreground": "var(white)",
-        "background": "var(back)",
+        "background": "var(black2)",
         "caret": "var(white2)",
         "invisibles": "var(gray2)",
         "line_highlight": "var(gray)",
