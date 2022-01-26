@@ -48,7 +48,7 @@
             "name": "Comment",
             "scope": "comment",
             "foreground": "var(gray)",
-            "font_style": ""
+            "font_style": "italic"
         },
         {
             "name": "String",
