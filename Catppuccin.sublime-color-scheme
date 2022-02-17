@@ -30,6 +30,7 @@
         "background": "var(black2)",
         "caret": "var(white2)",
         "invisibles": "var(gray2)",
+        "gutter_foreground": "var(gray1)",
         "gutter_foreground_highlight": "var(green)",
         "line_highlight": "var(black2)",
         "selection": "color(var(gray) alpha(0.4))",
