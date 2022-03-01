@@ -24,6 +24,7 @@
         "sky": "#89dceb",
         "lavender": "#c9cbff"
     },
+
     "globals":
     {
         "foreground": "var(white)",
@@ -46,6 +47,10 @@
     },
     "rules":
     [
+        {
+            "scope": "meta.semantic-token",
+            "background": "#00000101"
+        },
         {
             "name": "Comment",
             "scope": "comment",
