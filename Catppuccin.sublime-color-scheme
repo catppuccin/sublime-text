@@ -153,26 +153,26 @@
         },
         {
             "name": "Include",
-            "scope": "keyword.control.import",
+            "scope": "keyword.control.import.include",
             "foreground": "var(teal)",
             "font_style": "italic"
         },
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(white2)",
+            "foreground": "var(red)",
             "font_style": ""
         },
         {
             "name": "Storage type",
             "scope": "storage.type",
-            "foreground": "var(sky)",
+            "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "var(blue)",
+            "foreground": "var(red)",
             "font_style": ""
         },
         {
@@ -194,16 +194,22 @@
             "font_style": ""
         },
         {
+            "name": "Keyword class",
+            "scope": "keyword.declaration.class",
+            "foreground": "var(red)",
+            "font_style": "italic"
+        },
+        {
             "name": "Class name",
-            "scope": "entity.name.class",
+            "scope": "entity.name.class, meta.toc-list.full-identifier",
             "foreground": "var(sky)",
-            "font_style": "underline"
+            "font_style": ""
         },
         {
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
             "foreground": "var(sky)",
-            "font_style": "italic underline"
+            "font_style": "italic"
         },
         {
             "name": "Function name",
@@ -214,6 +220,12 @@
         {
             "name": "Function macro",
             "scope": "entity.name.function.preprocessor",
+            "foreground": "var(red)",
+            "font_style": ""
+        },
+        {
+            "name": "Macro directive - ifdef",
+            "scope": "keyword.control.import",
             "foreground": "var(red)",
             "font_style": ""
         },
