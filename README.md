@@ -33,7 +33,7 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 4. Move the `Catppuccin` directory into the `Packages` directory.
 
 ### Activation
-1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select `Catppuccin`.
+1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select any of the four flavours of Catppuccin. 
 2. Go to `Preferences->Select Theme...` and select `Adaptive`.
 
 ## 💝 Thanks to
