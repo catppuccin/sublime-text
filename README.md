@@ -39,6 +39,7 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 ## 💝 Thanks to
 
 - [BrunDerSchwarzmagier](https://github.com/BrunDerSchwarzmagier)
+- [ghostx31](https://github.com/ghostx31)
 
 &nbsp;
 
