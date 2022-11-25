@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/sublime-text/main/assets/ss.png"/>
+  <img src="https://user-images.githubusercontent.com/68803793/203905911-e9569b4c-af9b-45ef-918d-f38015f1e0f0.png"/>
 </p>
 
 ## Usage
