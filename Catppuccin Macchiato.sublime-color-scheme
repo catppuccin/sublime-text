@@ -427,6 +427,12 @@
             "font_style": ""
         },
         {
+            "name": "Rust macro",
+            "scope": "support.macro.rust",
+            "foreground": "var(sky)",
+            "font_style": "italic",
+        },
+        {
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "var(text)",
