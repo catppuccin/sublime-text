@@ -19,6 +19,11 @@
 
 ### Installation
 
+#### Package Control
+1. In Sublime Text, open the command palette with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> (Windows, Linux) or <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> (Mac).
+2. Enter `Package Control Install Package` (or usually just `pcip`) and select it.
+4. Search for and select the *Catppuccin* package.
+
 #### Git download
 1. In Sublime Text, find the `Packages` directory by going to `Preferences->Browse Packages...`.
 2. From the command line, go to the `Packages` directory and clone the repo:
