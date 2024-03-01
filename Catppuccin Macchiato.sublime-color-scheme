@@ -5,11 +5,16 @@
     {
         "mantle": "#1e2030",
         "base": "#24273a",
+        "crust": "#181926",
         "text": "#cad3f5",
         "subtext1": "#b8c0e0",
+        "overlay0": "#8087a2",
         "overlay1": "#6e738d",
         "overlay2": "#939ab7",
         "subtext0": "#a5adcb",
+        "surface0": "#363a4f",
+        "surface1": "#494d64",
+        "surface2": "#5b6078",
         "rosewater": "#f4dbd6",
         "flamingo": "#f0c6c6",
         "mauve": "#c6a0f6",
@@ -22,7 +27,8 @@
         "teal": "#8bd5ca",
         "blue": "#8aadf4",
         "sky": "#91d7e3",
-        "lavender": "#b7bdf8"
+        "lavender": "#b7bdf8",
+        "sapphire": "#7dc4e4",
     },
 
     "globals":
