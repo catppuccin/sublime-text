@@ -33,7 +33,7 @@
         "invisibles": "var(subtext0)",
         "gutter_foreground": "var(overlay2)",
         "gutter_foreground_highlight": "var(green)",
-        "line_highlight": "var(base)",
+        "line_highlight": "color(var(text) alpha(0.07))",
         "selection": "color(var(overlay1) alpha(0.4))",
         "selection_border": "var(base)",
         "active_guide": "color(var(peach) alpha(0.5))",
