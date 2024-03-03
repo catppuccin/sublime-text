@@ -104,6 +104,11 @@
             "scope": "variable"
         },
         {
+            "name": "Symbol",
+            "scope": "constant.other.symbol",
+            "foreground": "var(yellow)"
+        },
+        {
             "name": "Keyword",
             "scope": "keyword",
             "foreground": "var(red)",
