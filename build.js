@@ -6,8 +6,6 @@ import {
 // Load color-scheme.json
 import colorScheme from "./color-scheme.json" with { type: "json" };
 
-// console.log(colorScheme);
-// console.log(flavors);
 for (const [name, flavor] of flavorEntries) {
   // Add a "variables" field with the colors for each theme
   colorScheme.variables = Object.fromEntries(Array.from(Object.entries(flavor.colors)).map(([name, color]) => {
