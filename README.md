@@ -41,10 +41,26 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select any of the four flavours of Catppuccin. 
 2. Go to `Preferences->Select Theme...` and select `Adaptive`.
 
+## Development
+
+### Local modifications
+If you're unfamiliar with Sublime Text color scheme development, see [Color Schemes in the Official Documentation](https://www.sublimetext.com/docs/color_schemes.html).
+
+For local editing, you can invoke `UI: Customize Color Scheme` in the command palette to open a split-pane window with the current color scheme on the left and an override file on the right. Rules you add to your override file will be processed after the rules in the official color scheme.
+
+If you have a specific piece of code you would like to re-color, you'll need to know what scopes are being applied to the token. (Applying scopes is done by the syntax, not the color scheme.) Position your caret over the token, and use control+shift+p, or Tools > Developer > Show Scope Name. Then add a rule in your color scheme override to apply a color to this token.
+
+### Contributing modifications
+1. Clone this repository and open it
+2. Apply your changes to `color-scheme.json`
+3. Re-build the 4 flavors in build/ with `./build.js` (requires Deno to be installed)
+4. Open a Pull Request!
+
 ## 💝 Thanks to
 
 - [BrunDerSchwarzmagier](https://github.com/BrunDerSchwarzmagier)
 - [ghostx31](https://github.com/ghostx31)
+- [Matthias Portzel](https://github.com/MatthiasPortzel)
 
 &nbsp;
 
