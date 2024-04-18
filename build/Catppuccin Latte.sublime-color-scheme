@@ -1,38 +1,35 @@
 {
     "name": "Catppuccin",
     "author": "BrunDerSchwarzmagier",
-    "variables":
-    {
-        "mantle": "#292c3c",
-        "base": "#303446",
-        "crust": "#232634",
-        "text": "#c6d0f5",
-        "subtext1": "#b5bfe2",
-        "overlay0": "#737994",
-        "overlay1": "#838ba7",
-        "overlay2": "#949cbb",
-        "subtext0": "#a5adce",
-        "surface0": "#414559",
-        "surface1": "#51576d",
-        "surface2": "#626880",
-        "rosewater": "#f2d5cf",
-        "flamingo": "#eebebe",
-        "mauve": "#ca9ee6",
-        "pink": "#f4b8e4",
-        "maroon": "#ea999c",
-        "red": "#e78284",
-        "peach": "#ef9f76",
-        "yellow": "#e5c890",
-        "green": "#a6d189",
-        "teal": "#81c8be",
-        "blue": "#8caaee",
-        "sky": "#99d1db",
-        "lavender": "#babbf1",
-        "sapphire": "#85c1dc"
+    "variables": {
+        "rosewater": "#dc8a78",
+        "flamingo": "#dd7878",
+        "pink": "#ea76cb",
+        "mauve": "#8839ef",
+        "red": "#d20f39",
+        "maroon": "#e64553",
+        "peach": "#fe640b",
+        "yellow": "#df8e1d",
+        "green": "#40a02b",
+        "teal": "#179299",
+        "sky": "#04a5e5",
+        "sapphire": "#209fb5",
+        "blue": "#1e66f5",
+        "lavender": "#7287fd",
+        "text": "#4c4f69",
+        "subtext1": "#5c5f77",
+        "subtext0": "#6c6f85",
+        "overlay2": "#7c7f93",
+        "overlay1": "#8c8fa1",
+        "overlay0": "#9ca0b0",
+        "surface2": "#acb0be",
+        "surface1": "#bcc0cc",
+        "surface0": "#ccd0da",
+        "base": "#eff1f5",
+        "mantle": "#e6e9ef",
+        "crust": "#dce0e8"
     },
-
-    "globals":
-    {
+    "globals": {
         "foreground": "var(text)",
         "background": "var(base)",
         "caret": "var(subtext1)",
@@ -51,8 +48,7 @@
         "bracket_contents_foreground": "color(var(overlay2) alpha(0.5))",
         "tags_options": "stippled_underline"
     },
-    "rules":
-    [
+    "rules": [
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"
@@ -106,13 +102,13 @@
             "font_style": ""
         },
         {
-            "name": "Variable",
-            "scope": "variable"
-        },
-        {
             "name": "Symbol",
             "scope": "constant.other.symbol",
             "foreground": "var(yellow)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable"
         },
         {
             "name": "Keyword",
@@ -446,7 +442,7 @@
             "name": "Rust macro",
             "scope": "support.macro.rust",
             "foreground": "var(sky)",
-            "font_style": "italic",
+            "font_style": "italic"
         },
         {
             "name": "Invalid",
