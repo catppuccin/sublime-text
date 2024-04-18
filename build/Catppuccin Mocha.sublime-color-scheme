@@ -1,38 +1,35 @@
 {
     "name": "Catppuccin",
     "author": "BrunDerSchwarzmagier",
-    "variables":
-    {
-        "mantle": "#181825",
-        "base": "#1e1e2e",
-        "crust": "#11111b",
-        "text": "#cdd6f4",
-        "subtext1": "#bac2de",
-        "overlay0": "#6c7086",
-        "overlay1": "#7f849c",
-        "overlay2": "#9399b2",
-        "subtext0": "#a6adc8",
-        "surface0": "#313244",
-        "surface1": "#45475a",
-        "surface2": "#585b70",
+    "variables": {
         "rosewater": "#f5e0dc",
         "flamingo": "#f2cdcd",
-        "mauve": "#cba6f7",
         "pink": "#f5c2e7",
-        "maroon": "#eba0ac",
+        "mauve": "#cba6f7",
         "red": "#f38ba8",
+        "maroon": "#eba0ac",
         "peach": "#fab387",
         "yellow": "#f9e2af",
         "green": "#a6e3a1",
         "teal": "#94e2d5",
-        "blue": "#89b4fa",
         "sky": "#89dceb",
+        "sapphire": "#74c7ec",
+        "blue": "#89b4fa",
         "lavender": "#b4befe",
-        "sapphire": "#74c7ec"
+        "text": "#cdd6f4",
+        "subtext1": "#bac2de",
+        "subtext0": "#a6adc8",
+        "overlay2": "#9399b2",
+        "overlay1": "#7f849c",
+        "overlay0": "#6c7086",
+        "surface2": "#585b70",
+        "surface1": "#45475a",
+        "surface0": "#313244",
+        "base": "#1e1e2e",
+        "mantle": "#181825",
+        "crust": "#11111b"
     },
-
-    "globals":
-    {
+    "globals": {
         "foreground": "var(text)",
         "background": "var(base)",
         "caret": "var(subtext1)",
@@ -51,8 +48,7 @@
         "bracket_contents_foreground": "color(var(overlay2) alpha(0.5))",
         "tags_options": "stippled_underline"
     },
-    "rules":
-    [
+    "rules": [
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"
@@ -441,7 +437,7 @@
             "name": "Rust macro",
             "scope": "support.macro.rust",
             "foreground": "var(sky)",
-            "font_style": "italic",
+            "font_style": "italic"
         },
         {
             "name": "Invalid",
