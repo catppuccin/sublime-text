@@ -1,3 +1,5 @@
+#!/usr/bin/env deno run --allow-write=.
+
 import {
   flavors,
   flavorEntries
@@ -14,6 +16,5 @@ for (const [name, flavor] of flavorEntries) {
 
   // Write out the new JSON to build/
   const jsonText = JSON.stringify(colorScheme, null, 4);
-  // flavor.name has an uppercase version of name but it includes é for Frappe and I'm not ready for UTF-8 file names
-  Deno.writeTextFileSync(`build/Catppuccin ${name.toUpperCase()}.sublime-color-scheme`, jsonText + "\n");
+  Deno.writeTextFileSync(`build/Catppuccin ${flavor.name}.sublime-color-scheme`, jsonText + "\n");
 }
