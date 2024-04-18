@@ -280,7 +280,7 @@
         {
             "name": "Unquoted keys",
             "scope": "meta.mapping.key string.unquoted",
-            "foreground": "var(text)",
+            "foreground": "var(text)"
         },
         {
             "name": "Variable function",
@@ -494,7 +494,7 @@
             "foreground": "var(blue)"
         },
         {
-            "name" : "JSON key surrounding quotes",
+            "name": "JSON key surrounding quotes",
             "scope": "source.json meta.mapping.key punctuation.definition.string.begin, source.json meta.mapping.key punctuation.definition.string.end",
             "foreground": "var(overlay2)"
         },
