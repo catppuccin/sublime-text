@@ -1,6 +1,6 @@
 {
     "name": "Catppuccin",
-    "author": "BrunDerSchwarzmagier",
+    "author": "Catppuccin Org",
 
     "variables": "Gets overwritten by build step with colors",
 
