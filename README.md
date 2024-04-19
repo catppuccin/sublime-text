@@ -20,26 +20,31 @@
 ### Installation
 
 #### Package Control
-1. In Sublime Text, open the command palette with <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> (Windows, Linux) or <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>p</kbd> (Mac).
-2. Enter `Package Control Install Package` (or usually just `pcip`) and select it.
+
+1. In Sublime Text, open the command palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P/kbd> (macOS).
+2. Enter `Package Control Install Package` (or just `pcip`) and select it.
 4. Search for and select the *Catppuccin* package.
 
 #### Git download
-1. In Sublime Text, find the `Packages` directory by going to `Preferences->Browse Packages...`.
-2. From the command line, go to the `Packages` directory and clone the repo:
+
+1. In Sublime Text, locate the path to the `Packages` directory through the **Preferences** > **Browse Packages...** menu.
+2. From the command line, go to the previously noted directory path and clone the repository into it.
+
 ```
 git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 ```
 
 #### Manual download
-1. Download the [GitHub repo .zip](https://github.com/catppuccin/sublime-text/archive/refs/heads/main.zip).
+
+1. Download [this repsoitory as a ZIP archive](https://github.com/catppuccin/sublime-text/archive/refs/heads/main.zip).
 2. Unzip into a directory named `Catppuccin`.
-3. In Sublime Text, open the `Packages` directory by going to `Preferences->Browse Packages...`.
-4. Move the `Catppuccin` directory into the `Packages` directory.
+3. In Sublime Text, open the `Packages` directory through the **Preferences** > **Browse Packages...** menu.
+4. Move the unzipped `Catppuccin` directory into the `Packages` directory.
 
 ### Activation
-1. In Sublime Text, go to `Preferences->Select Color Scheme...` and select any of the four flavours of Catppuccin. 
-2. Go to `Preferences->Select Theme...` and select `Adaptive`.
+
+1. In Sublime Text, select your flavor of choice through **Preferences** > **Select Color Scheme**.
+2. Go to **Preferences** > **Select Theme...** and select `Adaptive`.
 
 ## 💝 Thanks to
 
