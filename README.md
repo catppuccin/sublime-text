@@ -21,7 +21,7 @@
 
 #### Package Control
 
-1. In Sublime Text, open the command palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P/kbd> (macOS).
+1. In Sublime Text, open the command palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (macOS).
 2. Enter `Package Control Install Package` (or just `pcip`) and select it.
 4. Search for and select the *Catppuccin* package.
 
