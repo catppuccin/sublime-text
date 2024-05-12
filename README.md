@@ -44,7 +44,7 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 ## Development
 
 ### Local modifications
-If you're unfamiliar with Sublime Text color scheme development, see [Color Schemes in the Official Documentation](https://www.sublimetext.com/docs/color_schemes.html).
+If you're unfamiliar with Sublime Text color scheme development, see ["Color Schemes" in the Sublime Text documentation](https://www.sublimetext.com/docs/color_schemes.html).
 
 For local editing, you can invoke `UI: Customize Color Scheme` in the command palette to open a split-pane window with the current color scheme on the left and an override file on the right. Rules you add to your override file will be processed after the rules in the official color scheme.
 
