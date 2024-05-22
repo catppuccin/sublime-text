@@ -1,11 +1,44 @@
+---
+whiskers:
+    version: 2.0.0
+    matrix:
+        - flavor
+    filename: "build/Catppuccin {{ flavor.identifier | capitalize }}.sublime-color-scheme"
+---
 {
     "name": "Catppuccin",
     "author": "Catppuccin Org",
 
-    "variables": "Gets overwritten by build step with colors",
+    "variables": {
+        "rosewater": "#{{flavor.colors.rosewater.hex}}",
+        "flamingo": "#{{flavor.colors.flamingo.hex}}",
+        "pink": "#{{flavor.colors.pink.hex}}",
+        "mauve": "#{{flavor.colors.mauve.hex}}",
+        "red": "#{{flavor.colors.red.hex}}",
+        "maroon": "#{{flavor.colors.maroon.hex}}",
+        "peach": "#{{flavor.colors.peach.hex}}",
+        "yellow": "#{{flavor.colors.yellow.hex}}",
+        "green": "#{{flavor.colors.green.hex}}",
+        "teal": "#{{flavor.colors.teal.hex}}",
+        "sky": "#{{flavor.colors.sky.hex}}",
+        "sapphire": "#{{flavor.colors.sapphire.hex}}",
+        "blue": "#{{flavor.colors.blue.hex}}",
+        "lavender": "#{{flavor.colors.lavender.hex}}",
+        "text": "#{{flavor.colors.text.hex}}",
+        "subtext1": "#{{flavor.colors.subtext1.hex}}",
+        "subtext0": "#{{flavor.colors.subtext0.hex}}",
+        "overlay2": "#{{flavor.colors.overlay2.hex}}",
+        "overlay1": "#{{flavor.colors.overlay1.hex}}",
+        "overlay0": "#{{flavor.colors.overlay0.hex}}",
+        "surface2": "#{{flavor.colors.surface2.hex}}",
+        "surface1": "#{{flavor.colors.surface1.hex}}",
+        "surface0": "#{{flavor.colors.surface0.hex}}",
+        "base": "#{{flavor.colors.base.hex}}",
+        "mantle": "#{{flavor.colors.mantle.hex}}",
+        "crust": "#{{flavor.colors.crust.hex}}"
+    },
 
-    "globals":
-    {
+    "globals": {
         "foreground": "var(text)",
         "background": "var(base)",
         "caret": "var(subtext1)",
@@ -24,8 +57,7 @@
         "bracket_contents_foreground": "color(var(overlay2) alpha(0.5))",
         "tags_options": "stippled_underline"
     },
-    "rules":
-    [
+    "rules": [
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"

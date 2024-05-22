@@ -1,6 +1,7 @@
 {
     "name": "Catppuccin",
     "author": "Catppuccin Org",
+
     "variables": {
         "rosewater": "#dc8a78",
         "flamingo": "#dd7878",
@@ -29,6 +30,7 @@
         "mantle": "#e6e9ef",
         "crust": "#dce0e8"
     },
+
     "globals": {
         "foreground": "var(text)",
         "background": "var(base)",
