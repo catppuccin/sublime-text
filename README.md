@@ -44,11 +44,11 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 ## Development
 
 ### Local modifications
-If you're unfamiliar with Sublime Text color scheme development, see [Color Schemes in the Official Documentation](https://www.sublimetext.com/docs/color_schemes.html).
+If you're unfamiliar with Sublime Text color scheme development, see ["Color Schemes" in the Sublime Text documentation](https://www.sublimetext.com/docs/color_schemes.html).
 
 For local editing, you can invoke `UI: Customize Color Scheme` in the command palette to open a split-pane window with the current color scheme on the left and an override file on the right. Rules you add to your override file will be processed after the rules in the official color scheme.
 
-If you have a specific piece of code you would like to re-color, you'll need to know what scopes are being applied to the token. (Applying scopes is done by the syntax, not the color scheme.) Position your caret over the token, and use control+shift+p, or Tools > Developer > Show Scope Name. Then add a rule in your color scheme override to apply a color to this token.
+If you have a specific piece of code you would like to re-color, you'll need to know what scopes are being applied to the token. (Applying scopes is done by the syntax, not the color scheme.) Position your caret over the token, and use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or **Tools** > **Developer** > **Show Scope Name**). Then add a rule in your color scheme override to apply a color to this token.
 
 ### Contributing modifications
 1. Clone this repository and open it

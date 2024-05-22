@@ -255,6 +255,11 @@
             "font_style": ""
         },
         {
+            "name": "Unquoted keys",
+            "scope": "meta.mapping.key string.unquoted",
+            "foreground": "var(text)"
+        },
+        {
             "name": "Variable function",
             "scope": "variable.function",
             "foreground": "var(blue)",
@@ -459,6 +464,21 @@
             "scope": "message.error",
             "foreground": "var(red)",
             "font_style": ""
+        },
+        {
+            "name": "JSON keys",
+            "scope": "source.json meta.mapping.key string",
+            "foreground": "var(blue)"
+        },
+        {
+            "name": "JSON key surrounding quotes",
+            "scope": "source.json meta.mapping.key punctuation.definition.string.begin, source.json meta.mapping.key punctuation.definition.string.end",
+            "foreground": "var(overlay2)"
+        },
+        {
+            "name": "YAML unquoted keys",
+            "scope": "source.yaml meta.mapping.key string.unquoted",
+            "foreground": "var(blue)"
         }
     ]
 }
