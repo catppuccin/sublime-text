@@ -8,8 +8,8 @@ import {
 // Load color-scheme.json
 import colorScheme from "./color-scheme.json" with { type: "json" };
 
-function capitalize (str) {
-  return str[0].toUpperCase() + str.slice(1);
+function capitalize (word) {
+  return word[0].toUpperCase() + word.slice(1);
 }
 
 for (const [name, flavor] of flavorEntries) {
