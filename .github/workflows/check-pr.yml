@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: "Install Whiskers"
       # Ideally this would pull the latest whiskers version
-      - run: |
+        run: |
           curl -fsSL https://github.com/catppuccin/toolbox/releases/download/whiskers-v2.2.0/whiskers-x86_64-unknown-linux-gnu -o $RUNNER_TEMP/whiskers
           chmod +x $RUNNER_TEMP/whiskers
           echo $RUNNER_TEMP >> $GITHUB_PATH
@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: "Check"
-      - run: whiskers sublime-color-scheme.tera --check
+        run: whiskers sublime-color-scheme.tera --check
 
 
 
