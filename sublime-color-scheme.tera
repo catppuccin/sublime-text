@@ -1,11 +1,44 @@
+---
+whiskers:
+    version: 2.2.0
+    matrix:
+        - flavor
+    filename: "build/Catppuccin {{ flavor.identifier | capitalize }}.sublime-color-scheme"
+---
 {
     "name": "Catppuccin",
     "author": "Catppuccin Org",
 
-    "variables": "Gets overwritten by build step with colors",
+    "variables": {
+        "rosewater": "#{{rosewater.hex}}",
+        "flamingo": "#{{flamingo.hex}}",
+        "pink": "#{{pink.hex}}",
+        "mauve": "#{{mauve.hex}}",
+        "red": "#{{red.hex}}",
+        "maroon": "#{{maroon.hex}}",
+        "peach": "#{{peach.hex}}",
+        "yellow": "#{{yellow.hex}}",
+        "green": "#{{green.hex}}",
+        "teal": "#{{teal.hex}}",
+        "sky": "#{{sky.hex}}",
+        "sapphire": "#{{sapphire.hex}}",
+        "blue": "#{{blue.hex}}",
+        "lavender": "#{{lavender.hex}}",
+        "text": "#{{text.hex}}",
+        "subtext1": "#{{subtext1.hex}}",
+        "subtext0": "#{{subtext0.hex}}",
+        "overlay2": "#{{overlay2.hex}}",
+        "overlay1": "#{{overlay1.hex}}",
+        "overlay0": "#{{overlay0.hex}}",
+        "surface2": "#{{surface2.hex}}",
+        "surface1": "#{{surface1.hex}}",
+        "surface0": "#{{surface0.hex}}",
+        "base": "#{{base.hex}}",
+        "mantle": "#{{mantle.hex}}",
+        "crust": "#{{crust.hex}}"
+    },
 
-    "globals":
-    {
+    "globals": {
         "foreground": "var(text)",
         "background": "var(base)",
         "caret": "var(subtext1)",
@@ -24,8 +57,7 @@
         "bracket_contents_foreground": "color(var(overlay2) alpha(0.5))",
         "tags_options": "stippled_underline"
     },
-    "rules":
-    [
+    "rules": [
         {
             "scope": "meta.semantic-token",
             "background": "#00000101"

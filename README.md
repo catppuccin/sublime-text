@@ -57,8 +57,9 @@ If you have a specific piece of code you would like to re-color, you'll need to 
 
 ### Contributing modifications
 1. Clone this repository and open it
-2. Apply your changes to `color-scheme.json`
-3. Re-build the 4 flavors in build/ with `./build.js` (requires Deno to be installed)
+2. Apply your changes to `sublime-color-scheme.tera`
+3. Re-build the 4 flavors with `whiskers sublime-color-scheme.tera`
+  4. To install Whiskers, the Catppuccin helper tool, see https://github.com/catppuccin/toolbox/tree/main/whiskers
 4. Open a Pull Request!
 
 ## 💝 Thanks to
