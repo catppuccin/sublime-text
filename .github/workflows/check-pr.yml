@@ -21,6 +21,3 @@ jobs:
 
       - name: "Check"
         run: whiskers sublime-color-scheme.tera --check
-
-
-
