@@ -15,7 +15,7 @@ jobs:
       - name: "Install Whiskers"
         uses: catppuccin/setup-whiskers@v1
         with:
-          whiskers-version: 2.2.0
+          whiskers-version: 2.5.1
 
       - name: "Check"
         run: whiskers sublime-color-scheme.tera --check
