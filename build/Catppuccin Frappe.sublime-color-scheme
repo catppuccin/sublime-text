@@ -489,16 +489,10 @@
             "font_style": ""
         },
         {
-            "name": "CSS suffix",
+            "name": "CSS unit suffix",
             "scope": "constant.numeric.suffix.css, keyword.other.unit.css",
-            "foreground": "var(teal)",
+            "foreground": "var(mauve)",
             "font_style": "italic"
-        },
-        {
-            "name": "CSS variable property",
-            "scope": "variable.other.custom-property.name.css, support.type.custom-property.name.css, punctuation.definition.custom-property.css",
-            "foreground": "var(teal)",
-            "font_style": ""
         },
         {
             "name": "SCSS tag",
@@ -514,8 +508,8 @@
         },
         {
             "name": "Rust macro",
-            "scope": "support.macro.rust",
-            "foreground": "var(sky)",
+            "scope": "support.macro",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
