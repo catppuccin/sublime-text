@@ -508,7 +508,7 @@
         },
         {
             "name": "Rust macro",
-            "scope": "support.macro",
+            "scope": "support.macro.rust",
             "foreground": "var(blue)",
             "font_style": "italic"
         },
