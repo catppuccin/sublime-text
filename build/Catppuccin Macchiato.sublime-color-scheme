@@ -149,7 +149,7 @@
             "font_style": "italic"
         },
         {
-            "name": "Preprocess directives (C++)",
+            "name": "C++ directive (define, ifdef, ...)",
             "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++",
             "foreground": "var(yellow)",
             "font_style": ""
