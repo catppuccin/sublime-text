@@ -120,7 +120,7 @@
         },
         {
             "name": "Conditional/loop",
-            "scope": "keyword.control.loop, keyword.control.conditional, keyword.control.c++",
+            "scope": "keyword.control.loop, keyword.control.conditional",
             "foreground": "var(mauve)",
             "font_style": "bold"
         },
@@ -147,6 +147,12 @@
             "scope": "keyword.declaration.function",
             "foreground": "var(mauve)",
             "font_style": "italic"
+        },
+        {
+            "name": "Preprocess directives (C++)",
+            "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++",
+            "foreground": "var(yellow)",
+            "font_style": ""
         },
         {
             "name": "Exception",
@@ -205,7 +211,7 @@
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "var(red)",
+            "foreground": "var(mauve)",
             "font_style": ""
         },
         {
@@ -276,13 +282,13 @@
         },
         {
             "name": "Library class/type",
-            "scope": "support.type, support.class",
+            "scope": "support.type, support.class, entity.name.type, meta.enum",
             "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
             "name": "Builtin type",
-            "scope": "support.type.primitive",
+            "scope": "storage.type.primitive, support.type.primitive",
             "foreground": "var(mauve)",
             "font_style": ""
         },
@@ -352,7 +358,7 @@
         },
         {
             "name": "Markdown URL",
-            "scope": "markup.underline.link, punctuation.separator.path",
+            "scope": "markup.underline.link, punctuation.separator.path.markdown",
             "foreground": "var(blue)",
             "font_style": "italic underline"
         },
@@ -473,7 +479,7 @@
         {
             "name": "CSS property",
             "scope": "support.type.property-name.css",
-            "foreground": "var(flamingo)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
