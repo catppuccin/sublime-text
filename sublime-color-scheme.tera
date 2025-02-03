@@ -44,7 +44,7 @@ whiskers:
         "caret": "var(subtext1)",
         "invisibles": "color(var(overlay2) alpha(0.4))",
         "gutter_foreground": "var(overlay2)",
-        "gutter_foreground_highlight": "var(green)",
+        "gutter_foreground_highlight": "var(mauve)",
         "line_highlight": "color(var(text) alpha(0.07))",
         "selection": "color(var(overlay1) alpha(0.4))",
         "selection_border": "var(base)",
@@ -65,7 +65,7 @@ whiskers:
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(overlay1)",
+            "foreground": "var(overlay2)",
             "font_style": "italic"
         },
         {
@@ -77,7 +77,7 @@ whiskers:
         {
             "name": "String regex",
             "scope": "string.regexp",
-            "foreground": "var(peach)",
+            "foreground": "var(pink)",
             "font_style": ""
         },
         {
@@ -95,7 +95,7 @@ whiskers:
         {
             "name": "Built-in constant",
             "scope": "constant.language",
-            "foreground": "var(lavender)",
+            "foreground": "var(peach)",
             "font_style": "italic"
         },
         {
@@ -122,20 +122,44 @@ whiskers:
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "var(red)",
+            "foreground": "var(mauve)",
             "font_style": "italic"
         },
         {
             "name": "Conditional/loop",
-            "scope": "keyword.control.loop, keyword.control.conditional, keyword.control.c++",
+            "scope": "keyword.control.loop, keyword.control.conditional",
             "foreground": "var(mauve)",
             "font_style": "bold"
         },
         {
             "name": "Return",
             "scope": "keyword.control.return, keyword.control.flow.return",
-            "foreground": "var(pink)",
+            "foreground": "var(mauve)",
             "font_style": "bold"
+        },
+        {
+            "name": "Variable declaration",
+            "scope": "keyword.declaration",
+            "foreground": "var(mauve)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Class declaration",
+            "scope": "keyword.declaration.class",
+            "foreground": "var(mauve)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function declaration",
+            "scope": "keyword.declaration.function",
+            "foreground": "var(mauve)",
+            "font_style": "italic"
+        },
+        {
+            "name": "C++ directive (define, ifdef, ...)",
+            "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++",
+            "foreground": "var(yellow)",
+            "font_style": ""
         },
         {
             "name": "Exception",
@@ -144,15 +168,21 @@ whiskers:
             "font_style": "italic"
         },
         {
+            "name": "Keyword operator",
+            "scope": "keyword.operator.word",
+            "foreground": "var(mauve)",
+            "font_style": ""
+        },
+        {
             "name": "Operator",
-            "scope": "keyword.operator, punctuation.accessor",
-            "foreground": "var(sky)",
-            "font_style": "bold"
+            "scope": "punctuation.accessor, keyword.operator",
+            "foreground": "var(teal)",
+            "font_style": ""
         },
         {
             "name": "Punctuation separator",
             "scope": "punctuation.separator",
-            "foreground": "var(teal)",
+            "foreground": "var(overlay2)",
             "font_style": ""
         },
         {
@@ -168,9 +198,9 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Include",
-            "scope": "keyword.control.import.include",
-            "foreground": "var(teal)",
+            "name": "Import/include",
+            "scope": "keyword.control.import, keyword.control.import.include",
+            "foreground": "var(mauve)",
             "font_style": "italic"
         },
         {
@@ -188,13 +218,13 @@ whiskers:
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "var(red)",
+            "foreground": "var(mauve)",
             "font_style": ""
         },
         {
             "name": "Storage type namespace",
             "scope": "entity.name.namespace, meta.path",
-            "foreground": "var(rosewater)",
+            "foreground": "var(text)",
             "font_style": "italic"
         },
         {
@@ -210,15 +240,9 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Keyword class",
-            "scope": "keyword.declaration.class",
-            "foreground": "var(red)",
-            "font_style": "italic"
-        },
-        {
             "name": "Class name",
             "scope": "entity.name.class, meta.toc-list.full-identifier",
-            "foreground": "var(sky)",
+            "foreground": "var(yellow)",
             "font_style": ""
         },
         {
@@ -240,15 +264,9 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Macro directive - ifdef",
-            "scope": "keyword.control.import",
-            "foreground": "var(red)",
-            "font_style": ""
-        },
-        {
             "name": "Constructor",
             "scope": "entity.name.function.constructor, entity.name.function.destructor",
-            "foreground": "var(lavender)",
+            "foreground": "var(mauve)",
             "font_style": ""
         },
         {
@@ -258,15 +276,9 @@ whiskers:
             "font_style": "italic"
         },
         {
-            "name": "Function declaration",
-            "scope": "keyword.declaration.function",
-            "foreground": "var(maroon)",
-            "font_style": "italic"
-        },
-        {
             "name": "Library function",
             "scope": "support.function",
-            "foreground": "var(sky)",
+            "foreground": "var(blue)",
             "font_style": ""
         },
         {
@@ -277,9 +289,15 @@ whiskers:
         },
         {
             "name": "Library class/type",
-            "scope": "support.type, support.class",
-            "foreground": "var(blue)",
+            "scope": "support.type, support.class, entity.name.type, meta.enum",
+            "foreground": "var(yellow)",
             "font_style": "italic"
+        },
+        {
+            "name": "Builtin type",
+            "scope": "storage.type.primitive, support.type.primitive",
+            "foreground": "var(mauve)",
+            "font_style": ""
         },
         {
             "name": "Library variable",
@@ -300,7 +318,7 @@ whiskers:
         {
             "name": "Variable parameter",
             "scope": "variable.parameter",
-            "foreground": "var(rosewater)",
+            "foreground": "var(maroon)",
             "font_style": "italic"
         },
         {
@@ -312,56 +330,110 @@ whiskers:
         {
             "name": "Variable field",
             "scope": "variable.other.member",
-            "foreground": "var(rosewater)",
+            "foreground": "var(text)",
             "font_style": ""
         },
         {
-            "name": "Variable language",
+            "name": "Variable language (builtin)",
             "scope": "variable.language",
-            "foreground": "var(teal)",
+            "foreground": "var(red)",
+            "font_style": ""
+        },
+        {
+            "name": "Variable annotation (decorator)",
+            "scope": "variable.annotation, punctuation.definition.annotation",
+            "foreground": "var(peach)",
             "font_style": ""
         },
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
-            "foreground": "var(peach)",
+            "foreground": "var(blue)",
             "font_style": ""
         },
         {
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(mauve)",
+            "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
             "name": "Tag delimiter",
             "scope": "punctuation.definition.tag",
-            "foreground": "var(maroon)",
+            "foreground": "var(teal)",
             "font_style": ""
         },
         {
             "name": "Markdown URL",
-            "scope": "markup.underline.link.markdown",
-            "foreground": "var(rosewater)",
+            "scope": "markup.underline.link, punctuation.separator.path.markdown",
+            "foreground": "var(blue)",
             "font_style": "italic underline"
         },
         {
             "name": "Markdown reference",
-            "scope": "meta.link.inline.description",
-            "foreground": "var(lavender )",
-            "font_style": "bold"
+            "scope": "meta.link.inline.description, meta.image.inline.description",
+            "foreground": "var(lavender)",
+            "font_style": ""
         },
         {
-            "name": "Markdown literal",
-            "scope": "comment.block.markdown, meta.code-fence, markup.raw.code-fence, markup.raw.inline",
-            "foreground": "var(teal)",
+            "name": "Markdown raw code",
+            "scope": "markup.raw.code-fence",
+            "foreground": "var(text)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown inline code",
+            "scope": "markup.raw.inline",
+            "foreground": "var(green)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown code fence definition",
+            "scope": "meta.code-fence.definition",
+            "foreground": "var(overlay2)",
             "font_style": "italic"
         },
         {
-            "name": "Markdown title",
-            "scope": "punctuation.definition.heading, entity.name.section",
-            "foreground": "var(blue)",
-            "font_style": "bold"
+            "name": "Markdown code fence definition language",
+            "scope": "constant.other.language-name.markdown",
+            "foreground": "var(sky)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markdown heading 1",
+            "scope": "markup.heading.1",
+            "foreground": "var(red)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown heading 2",
+            "scope": "markup.heading.2",
+            "foreground": "var(peach)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown heading 3",
+            "scope": "markup.heading.3",
+            "foreground": "var(yellow)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown heading 4",
+            "scope": "markup.heading.4",
+            "foreground": "var(green)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown heading 5",
+            "scope": "markup.heading.5",
+            "foreground": "var(sapphire)",
+            "font_style": ""
+        },
+        {
+            "name": "Markdown heading 6",
+            "scope": "markup.heading.6",
+            "foreground": "var(lavender)",
+            "font_style": ""
         },
         {
             "name": "Markdown emphasis",
@@ -414,7 +486,7 @@ whiskers:
         {
             "name": "CSS property",
             "scope": "support.type.property-name.css",
-            "foreground": "var(flamingo)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
@@ -424,16 +496,10 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "CSS suffix",
+            "name": "CSS unit suffix",
             "scope": "constant.numeric.suffix.css, keyword.other.unit.css",
-            "foreground": "var(teal)",
+            "foreground": "var(mauve)",
             "font_style": "italic"
-        },
-        {
-            "name": "CSS variable property",
-            "scope": "variable.other.custom-property.name.css, support.type.custom-property.name.css, punctuation.definition.custom-property.css",
-            "foreground": "var(teal)",
-            "font_style": ""
         },
         {
             "name": "SCSS tag",
@@ -450,7 +516,7 @@ whiskers:
         {
             "name": "Rust macro",
             "scope": "support.macro.rust",
-            "foreground": "var(sky)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
