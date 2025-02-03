@@ -426,13 +426,13 @@ whiskers:
         {
             "name": "Markdown heading 5",
             "scope": "markup.heading.5",
-            "foreground": "var(blue)",
+            "foreground": "var(sapphire)",
             "font_style": ""
         },
         {
             "name": "Markdown heading 6",
             "scope": "markup.heading.6",
-            "foreground": "var(mauve)",
+            "foreground": "var(lavender)",
             "font_style": ""
         },
         {
