@@ -224,7 +224,7 @@ whiskers:
         {
             "name": "Storage type namespace",
             "scope": "entity.name.namespace, meta.path",
-            "foreground": "var(text)",
+            "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
