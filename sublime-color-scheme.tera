@@ -106,7 +106,7 @@ whiskers:
         },
         {
             "name": "User-defined constant",
-            "scope": "variable.other.constant",
+            "scope": "variable.other.constant, entity.name.constant",
             "foreground": "var(peach)",
             "font_style": ""
         },
@@ -157,8 +157,14 @@ whiskers:
         },
         {
             "name": "C++ directive (define, ifdef, ...)",
-            "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++",
+            "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++, keyword.control.import.include.c",
             "foreground": "var(yellow)",
+            "font_style": ""
+        },
+        {
+            "name": "C# type/variable declaration keywords",
+            "scope": "storage.type.delegate, storage.type.variable",
+            "foreground": "var(mauve)",
             "font_style": ""
         },
         {
@@ -185,10 +191,11 @@ whiskers:
             "foreground": "var(overlay2)",
             "font_style": ""
         },
+        {#- Rust semicolon #}
         {
             "name": "Punctuation terminator",
             "scope": "punctuation.terminator",
-            "foreground": "var(teal)",
+            "foreground": "var(overlay2)",
             "font_style": ""
         },
         {
@@ -246,12 +253,6 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Inherited class",
-            "scope": "entity.other.inherited-class",
-            "foreground": "var(sky)",
-            "font_style": "italic"
-        },
-        {
             "name": "Function name",
             "scope": "entity.name.function, variable.function",
             "foreground": "var(blue)",
@@ -272,7 +273,7 @@ whiskers:
         {
             "name": "Function argument",
             "scope": "variable.parameter.function",
-            "foreground": "var(rosewater)",
+            "foreground": "var(maroon)",
             "font_style": "italic"
         },
         {
@@ -289,13 +290,13 @@ whiskers:
         },
         {
             "name": "Library class/type",
-            "scope": "support.type, support.class, entity.name.type, meta.enum",
+            "scope": "support.type, support.class, entity.name.type, entity.name.struct, entity.name.impl, entity.name.trait, meta.enum, entity.other.inherited-class",
             "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
             "name": "Builtin type",
-            "scope": "storage.type.primitive, support.type.primitive",
+            "scope": "storage.type.primitive, support.type.primitive, support.type.builtin, storage.type.c, storage.type.cs",
             "foreground": "var(mauve)",
             "font_style": ""
         },
@@ -322,12 +323,6 @@ whiskers:
             "font_style": "italic"
         },
         {
-            "name": "Variable other",
-            "scope": "variable.other",
-            "foreground": "var(text)",
-            "font_style": "italic"
-        },
-        {
             "name": "Variable field",
             "scope": "variable.other.member",
             "foreground": "var(text)",
@@ -346,6 +341,12 @@ whiskers:
             "font_style": ""
         },
         {
+            "name": "Python variable identifier",
+            "scope": "meta.generic-name",
+            "foreground": "var(text)",
+            "font_style": ""
+        },
+        {
             "name": "Tag name",
             "scope": "entity.name.tag",
             "foreground": "var(blue)",
@@ -358,8 +359,8 @@ whiskers:
             "font_style": "italic"
         },
         {
-            "name": "Tag delimiter",
-            "scope": "punctuation.definition.tag",
+            "name": "Tag delimiters and attribute key/value separators",
+            "scope": "punctuation.definition.tag, punctuation.separator.key-value",
             "foreground": "var(teal)",
             "font_style": ""
         },
@@ -520,6 +521,12 @@ whiskers:
             "font_style": "italic"
         },
         {
+            "name": "Rust generic angle brackets",
+            "scope": "punctuation.definition.generic",
+            "foreground": "var(teal)",
+            "font_style": ""
+        },
+        {
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "var(text)",
@@ -577,6 +584,11 @@ whiskers:
             "name": "YAML unquoted keys",
             "scope": "source.yaml meta.mapping.key string.unquoted",
             "foreground": "var(blue)"
+        },
+        {
+            "name": "YAML anchor/reference",
+            "scope": "variable.other.alias, entity.name.other.anchor",
+            "foreground": "var(yellow)"
         }
     ]
 }
