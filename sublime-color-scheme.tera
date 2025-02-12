@@ -69,6 +69,12 @@ whiskers:
             "font_style": "italic"
         },
         {
+            "name": "Shebang",
+            "scope": "comment.line.shebang.shell, constant.language.shebang",
+            "foreground": "var(pink)",
+            "font_style": "italic"
+        },
+        {
             "name": "String",
             "scope": "string",
             "foreground": "var(green)",
@@ -113,7 +119,7 @@ whiskers:
         {
             "name": "Symbol",
             "scope": "constant.other.symbol",
-            "foreground": "var(yellow)"
+            "foreground": "var(red)"
         },
         {
             "name": "Variable",
@@ -230,7 +236,7 @@ whiskers:
         },
         {
             "name": "Storage type namespace",
-            "scope": "entity.name.namespace, meta.path",
+            "scope": "entity.name.namespace",
             "foreground": "var(yellow)",
             "font_style": "italic"
         },
@@ -254,7 +260,7 @@ whiskers:
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function, variable.function",
+            "scope": "entity.name.function, variable.function, support.function",
             "foreground": "var(blue)",
             "font_style": "italic"
         },
@@ -265,38 +271,20 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Constructor",
-            "scope": "entity.name.function.constructor, entity.name.function.destructor",
-            "foreground": "var(mauve)",
-            "font_style": ""
-        },
-        {
-            "name": "Function argument",
-            "scope": "variable.parameter.function",
-            "foreground": "var(maroon)",
-            "font_style": "italic"
-        },
-        {
-            "name": "Library function",
-            "scope": "support.function",
-            "foreground": "var(blue)",
-            "font_style": ""
-        },
-        {
             "name": "Library constant",
             "scope": "support.constant",
             "foreground": "var(blue)",
             "font_style": ""
         },
         {
-            "name": "Library class/type",
-            "scope": "support.type, support.class, entity.name.type, entity.name.struct, entity.name.impl, entity.name.trait, meta.enum, entity.other.inherited-class",
+            "name": "Class/type identifier",
+            "scope": "support.type, support.class, entity.name.type, entity.name.struct, entity.name.impl, entity.name.trait, entity.name.union, meta.enum, entity.other.inherited-class, variable.other.member.delegate.cs",
             "foreground": "var(yellow)",
             "font_style": "italic"
         },
         {
             "name": "Builtin type",
-            "scope": "storage.type.primitive, support.type.primitive, support.type.builtin, storage.type.c, storage.type.cs",
+            "scope": "storage.type.primitive, support.type.primitive, support.type.builtin, storage.type.c, storage.type.cs, support.type.python",
             "foreground": "var(mauve)",
             "font_style": ""
         },
@@ -311,14 +299,8 @@ whiskers:
             "foreground": "var(text)"
         },
         {
-            "name": "Variable function",
-            "scope": "variable.function",
-            "foreground": "var(blue)",
-            "font_style": "italic"
-        },
-        {
             "name": "Variable parameter",
-            "scope": "variable.parameter",
+            "scope": "variable.parameter, variable.parameter.function",
             "foreground": "var(maroon)",
             "font_style": "italic"
         },
@@ -335,15 +317,27 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "Variable annotation (decorator)",
+            "name": "Annotation (decorator)",
             "scope": "variable.annotation, punctuation.definition.annotation",
             "foreground": "var(peach)",
+            "font_style": ""
+        },
+        {
+            "name": "C/Rust attribute",
+            "scope": "variable.annotation.rust, variable.annotation.cs, punctuation.definition.annotation.rust",
+            "foreground": "var(yellow)",
             "font_style": ""
         },
         {
             "name": "Python variable identifier",
             "scope": "meta.generic-name",
             "foreground": "var(text)",
+            "font_style": ""
+        },
+        {
+            "name": "Python docstring",
+            "scope": "comment.block.documentation.python",
+            "foreground": "var(green)",
             "font_style": ""
         },
         {
@@ -456,8 +450,8 @@ whiskers:
         },
         {
             "name": "Bash built-in function",
-            "scope": "source.shell.bash meta.function.shell meta.compound.shell meta.function-call.identifier.shell",
-            "foreground": "var(pink)",
+            "scope": "meta.function-call.identifier.shell support.function",
+            "foreground": "var(red)",
             "font_style": ""
         },
         {
@@ -485,8 +479,32 @@ whiskers:
             "font_style": ""
         },
         {
+            "name": "Java void keyword",
+            "scope": "storage.type.void.java",
+            "foreground": "var(mauve)",
+            "font_style": ""
+        },
+        {
             "name": "CSS property",
-            "scope": "support.type.property-name.css",
+            "scope": "support.type.property-name.css, meta.property-name.css entity.other.custom-property.css",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS property vendor prefix",
+            "scope": "support.type.vendor-prefix.css",
+            "foreground": "var(sky)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS variable usage",
+            "scope": "variable.other.custom-property.css",
+            "foreground": "var(maroon)",
+            "font_style": "italic"
+        },
+        {
+            "name": "CSS var function",
+            "scope": "support.function.var.css",
             "foreground": "var(blue)",
             "font_style": "italic"
         },
@@ -509,19 +527,31 @@ whiskers:
             "font_style": ""
         },
         {
-            "name": "SASS variable",
-            "scope": "variable.other.sass",
-            "foreground": "var(teal)",
+            "name": "Sass/SCSS variable",
+            "scope": "variable.other.sass, variable.other.scss",
+            "foreground": "var(maroon)",
+            "font_style": ""
+        },
+        {
+            "name": "SCSS mixin",
+            "scope": "entity.name.mixin.scss, variable.other.mixin.scss",
+            "foreground": "var(blue)",
             "font_style": ""
         },
         {
             "name": "Rust macro",
             "scope": "support.macro.rust",
             "foreground": "var(blue)",
-            "font_style": "italic"
+            "font_style": ""
         },
         {
-            "name": "Rust generic angle brackets",
+            "name": "Rust macro definition parameters",
+            "scope": "meta.macro.rust meta.macro.matchers.rust variable.parameter.rust",
+            "foreground": "var(pink)",
+            "font_style": ""
+        },
+        {
+            "name": "Generic/type parameter angle brackets",
             "scope": "punctuation.definition.generic",
             "foreground": "var(teal)",
             "font_style": ""
@@ -589,6 +619,30 @@ whiskers:
             "name": "YAML anchor/reference",
             "scope": "variable.other.alias, entity.name.other.anchor",
             "foreground": "var(yellow)"
-        }
+        },
+        {
+            "name": "Python double underscore functions",
+            "scope": "support.function.magic.python",
+            "foreground": "var(sky)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Javadoc, JSDoc",
+            "scope": "entity.name.tag.documentation, entity.other.attribute-name.documentation.js",
+            "foreground": "var(mauve)",
+            "font_style": ""
+        },
+        {
+            "name": "TOML datetime",
+            "scope": "constant.other.datetime.toml",
+            "foreground": "var(pink)",
+            "font_style": ""
+        },
+        {
+            "name": "TOML table name",
+            "scope": "entity.name.table.toml",
+            "foreground": "var(yellow)",
+            "font_style": ""
+        },
     ]
 }
