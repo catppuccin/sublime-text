@@ -77,20 +77,17 @@ whiskers:
         {
             "name": "String",
             "scope": "string",
-            "foreground": "var(green)",
-            "font_style": ""
+            "foreground": "var(green)"
         },
         {
             "name": "String regex",
             "scope": "string.regexp",
-            "foreground": "var(pink)",
-            "font_style": ""
+            "foreground": "var(pink)"
         },
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(peach)",
-            "font_style": ""
+            "foreground": "var(peach)"
         },
         {
             "name": "Boolean",
@@ -113,17 +110,12 @@ whiskers:
         {
             "name": "User-defined constant",
             "scope": "variable.other.constant, entity.name.constant",
-            "foreground": "var(peach)",
-            "font_style": ""
+            "foreground": "var(peach)"
         },
         {
             "name": "Symbol",
             "scope": "constant.other.symbol",
             "foreground": "var(red)"
-        },
-        {
-            "name": "Variable",
-            "scope": "variable"
         },
         {
             "name": "Keyword",
@@ -164,14 +156,12 @@ whiskers:
         {
             "name": "C++ directive (define, ifdef, ...)",
             "scope": "keyword.control.import.c++, keyword.control.import.define.c++, keyword.control.import.include.c++, keyword.control.import.include.c",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
         {
             "name": "C# type/variable declaration keywords",
             "scope": "storage.type.delegate, storage.type.variable",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "Exception",
@@ -182,33 +172,28 @@ whiskers:
         {
             "name": "Keyword operator",
             "scope": "keyword.operator.word",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "Operator",
             "scope": "punctuation.accessor, keyword.operator",
-            "foreground": "var(teal)",
-            "font_style": ""
+            "foreground": "var(teal)"
         },
         {
             "name": "Punctuation separator",
             "scope": "punctuation.separator",
-            "foreground": "var(overlay2)",
-            "font_style": ""
+            "foreground": "var(overlay2)"
         },
         {#- Rust semicolon #}
         {
             "name": "Punctuation terminator",
             "scope": "punctuation.terminator",
-            "foreground": "var(overlay2)",
-            "font_style": ""
+            "foreground": "var(overlay2)"
         },
         {
             "name": "Punctuation bracket",
             "scope": "punctuation.section",
-            "foreground": "var(overlay2)",
-            "font_style": ""
+            "foreground": "var(overlay2)"
         },
         {
             "name": "Import/include",
@@ -219,8 +204,7 @@ whiskers:
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Storage type",
@@ -231,8 +215,7 @@ whiskers:
         {
             "name": "Storage modifier",
             "scope": "storage.modifier",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "Storage type namespace",
@@ -249,14 +232,12 @@ whiskers:
         {
             "name": "Label",
             "scope": "entity.name.label",
-            "foreground": "var(blue)",
-            "font_style": ""
+            "foreground": "var(blue)"
         },
         {
             "name": "Class name",
             "scope": "entity.name.class, meta.toc-list.full-identifier",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
         {
             "name": "Function name",
@@ -267,14 +248,12 @@ whiskers:
         {
             "name": "Function macro",
             "scope": "entity.name.function.preprocessor",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Library constant",
             "scope": "support.constant",
-            "foreground": "var(blue)",
-            "font_style": ""
+            "foreground": "var(blue)"
         },
         {
             "name": "Class/type identifier",
@@ -285,13 +264,11 @@ whiskers:
         {
             "name": "Builtin type",
             "scope": "storage.type.primitive, support.type.primitive, support.type.builtin, storage.type.c, storage.type.cs, support.type.python",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "Library variable",
-            "scope": "support.other.variable",
-            "font_style": ""
+            "scope": "support.other.variable"
         },
         {
             "name": "Unquoted keys",
@@ -307,44 +284,37 @@ whiskers:
         {
             "name": "Variable field",
             "scope": "variable.other.member",
-            "foreground": "var(text)",
-            "font_style": ""
+            "foreground": "var(text)"
         },
         {
             "name": "Variable language (builtin)",
             "scope": "variable.language",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Annotation (decorator)",
             "scope": "variable.annotation, punctuation.definition.annotation",
-            "foreground": "var(peach)",
-            "font_style": ""
+            "foreground": "var(peach)"
         },
         {
             "name": "C/Rust attribute",
             "scope": "variable.annotation.rust, variable.annotation.cs, punctuation.definition.annotation.rust",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
         {
             "name": "Python variable identifier",
             "scope": "meta.generic-name",
-            "foreground": "var(text)",
-            "font_style": ""
+            "foreground": "var(text)"
         },
         {
             "name": "Python docstring",
             "scope": "comment.block.documentation.python",
-            "foreground": "var(green)",
-            "font_style": ""
+            "foreground": "var(green)"
         },
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
-            "foreground": "var(blue)",
-            "font_style": ""
+            "foreground": "var(blue)"
         },
         {
             "name": "Tag attribute",
@@ -355,8 +325,7 @@ whiskers:
         {
             "name": "Tag delimiters and attribute key/value separators",
             "scope": "punctuation.definition.tag, punctuation.separator.key-value",
-            "foreground": "var(teal)",
-            "font_style": ""
+            "foreground": "var(teal)"
         },
         {
             "name": "Markdown URL",
@@ -367,20 +336,17 @@ whiskers:
         {
             "name": "Markdown reference",
             "scope": "meta.link.inline.description, meta.image.inline.description",
-            "foreground": "var(lavender)",
-            "font_style": ""
+            "foreground": "var(lavender)"
         },
         {
             "name": "Markdown raw code",
             "scope": "markup.raw.code-fence",
-            "foreground": "var(text)",
-            "font_style": ""
+            "foreground": "var(text)"
         },
         {
             "name": "Markdown inline code",
             "scope": "markup.raw.inline",
-            "foreground": "var(green)",
-            "font_style": ""
+            "foreground": "var(green)"
         },
         {
             "name": "Markdown code fence definition",
@@ -397,38 +363,32 @@ whiskers:
         {
             "name": "Markdown heading 1",
             "scope": "markup.heading.1",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Markdown heading 2",
             "scope": "markup.heading.2",
-            "foreground": "var(peach)",
-            "font_style": ""
+            "foreground": "var(peach)"
         },
         {
             "name": "Markdown heading 3",
             "scope": "markup.heading.3",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
         {
             "name": "Markdown heading 4",
             "scope": "markup.heading.4",
-            "foreground": "var(green)",
-            "font_style": ""
+            "foreground": "var(green)"
         },
         {
             "name": "Markdown heading 5",
             "scope": "markup.heading.5",
-            "foreground": "var(sapphire)",
-            "font_style": ""
+            "foreground": "var(sapphire)"
         },
         {
             "name": "Markdown heading 6",
             "scope": "markup.heading.6",
-            "foreground": "var(lavender)",
-            "font_style": ""
+            "foreground": "var(lavender)"
         },
         {
             "name": "Markdown emphasis",
@@ -445,14 +405,12 @@ whiskers:
         {
             "name": "Escape",
             "scope": "constant.character.escape",
-            "foreground": "var(pink)",
-            "font_style": ""
+            "foreground": "var(pink)"
         },
         {
             "name": "Bash built-in function",
             "scope": "meta.function-call.identifier.shell support.function",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Bash parameter",
@@ -469,20 +427,17 @@ whiskers:
         {
             "name": "Lua constructor",
             "scope": "source.lua meta.function.lua meta.block.lua meta.mapping.key.lua string.unquoted.key.lua",
-            "foreground": "var(flamingo)",
-            "font_style": ""
+            "foreground": "var(flamingo)"
         },
         {
             "name": "Java constant",
             "scope": "entity.name.constant.java",
-            "foreground": "var(teal)",
-            "font_style": ""
+            "foreground": "var(teal)"
         },
         {
             "name": "Java void keyword",
             "scope": "storage.type.void.java",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "CSS property",
@@ -511,8 +466,7 @@ whiskers:
         {
             "name": "CSS constant",
             "scope": "support.constant.property-value.css",
-            "foreground": "var(text)",
-            "font_style": ""
+            "foreground": "var(text)"
         },
         {
             "name": "CSS unit suffix",
@@ -523,82 +477,69 @@ whiskers:
         {
             "name": "SCSS tag",
             "scope": "entity.name.tag.css",
-            "foreground": "var(lavender)",
-            "font_style": ""
+            "foreground": "var(lavender)"
         },
         {
             "name": "Sass/SCSS variable",
             "scope": "variable.other.sass, variable.other.scss",
-            "foreground": "var(maroon)",
-            "font_style": ""
+            "foreground": "var(maroon)"
         },
         {
             "name": "SCSS mixin",
             "scope": "entity.name.mixin.scss, variable.other.mixin.scss",
-            "foreground": "var(blue)",
-            "font_style": ""
+            "foreground": "var(blue)"
         },
         {
             "name": "Rust macro",
             "scope": "support.macro.rust",
-            "foreground": "var(blue)",
-            "font_style": ""
+            "foreground": "var(blue)"
         },
         {
             "name": "Rust macro definition parameters",
             "scope": "meta.macro.rust meta.macro.matchers.rust variable.parameter.rust",
-            "foreground": "var(pink)",
-            "font_style": ""
+            "foreground": "var(pink)"
         },
         {
             "name": "Generic/type parameter angle brackets",
             "scope": "punctuation.definition.generic",
-            "foreground": "var(teal)",
-            "font_style": ""
+            "foreground": "var(teal)"
         },
         {
             "name": "Invalid",
             "scope": "invalid",
             "foreground": "var(text)",
-            "background": "var(red)",
-            "font_style": ""
+            "background": "var(red)"
         },
         {
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "foreground": "var(text)",
-            "background": "var(mauve)",
-            "font_style": ""
+            "background": "var(mauve)"
         },
         {
             "name": "Diff header",
             "scope": "meta.diff, meta.diff.header",
-            "foreground": "var(overlay1)",
-            "font_style": ""
+            "foreground": "var(overlay1)"
         },
         {
             "name": "Diff deleted",
             "scope": "markup.deleted",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "Diff inserted",
             "scope": "markup.inserted",
-            "foreground": "var(green)",
-            "font_style": ""
+            "foreground": "var(green)"
         },
         {
             "name": "Diff changed",
             "scope": "markup.changed",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
         {
             "name": "Message error",
             "scope": "message.error",
-            "foreground": "var(red)",
-            "font_style": ""
+            "foreground": "var(red)"
         },
         {
             "name": "JSON keys",
@@ -629,20 +570,17 @@ whiskers:
         {
             "name": "Javadoc, JSDoc",
             "scope": "entity.name.tag.documentation, entity.other.attribute-name.documentation.js",
-            "foreground": "var(mauve)",
-            "font_style": ""
+            "foreground": "var(mauve)"
         },
         {
             "name": "TOML datetime",
             "scope": "constant.other.datetime.toml",
-            "foreground": "var(pink)",
-            "font_style": ""
+            "foreground": "var(pink)"
         },
         {
             "name": "TOML table name",
             "scope": "entity.name.table.toml",
-            "foreground": "var(yellow)",
-            "font_style": ""
+            "foreground": "var(yellow)"
         },
     ]
 }
