@@ -181,7 +181,7 @@ whiskers:
         },
         {
             "name": "Punctuation separator",
-            "scope": "punctuation.separator",
+            "scope": "punctuation.separator - (punctuation.separator.path)",
             "foreground": "var(overlay2)"
         },
         {#- Rust semicolon #}
@@ -308,7 +308,7 @@ whiskers:
         },
         {
             "name": "Python docstring",
-            "scope": "comment.block.documentation.python",
+            "scope": "source.python comment.block.documentation",
             "foreground": "var(green)"
         },
         {
@@ -329,7 +329,7 @@ whiskers:
         },
         {
             "name": "Markdown URL",
-            "scope": "markup.underline.link, punctuation.separator.path.markdown",
+            "scope": "markup.underline.link",
             "foreground": "var(blue)",
             "font_style": "italic underline"
         },
