@@ -22,8 +22,9 @@
 #### Package Control
 
 1. In Sublime Text, open the command palette with <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows/Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (macOS).
-2. Enter `Package Control Install Package` (or just `pcip`) and select it.
-4. Search for and select the *Catppuccin* package.
+2. Enter and select `Install Package Control` to install Package Control if not done so already.
+3. Enter and select `Package Control: Install Package`.
+3. Search for and select the _Catppuccin_ package.
 
 #### Git download
 
@@ -48,19 +49,13 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 
 ## Development
 
-### Local modifications
 If you're unfamiliar with Sublime Text color scheme development, see ["Color Schemes" in the Sublime Text documentation](https://www.sublimetext.com/docs/color_schemes.html).
 
-For local editing, you can invoke `UI: Customize Color Scheme` in the command palette to open a split-pane window with the current color scheme on the left and an override file on the right. Rules you add to your override file will be processed after the rules in the official color scheme.
+This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files. Edit the `sublime-color-scheme.tera` template, and run either `whiskers sublime-color-scheme.tera` or `just build` (if you have [just](https://github.com/casey/just) installed) to update the files in `build/`.
 
-If you have a specific piece of code you would like to re-color, you'll need to know what scopes are being applied to the token. (Applying scopes is done by the syntax, not the color scheme.) Position your caret over the token, and use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or **Tools** > **Developer** > **Show Scope Name**). Then add a rule in your color scheme override to apply a color to this token.
+For local editing, create a symlink from your local clone of this repository to the `Catppuccin` subdirectory of the `Packages` directory (revealed through the **Preferences** > **Browse Packages...** menu in Sublime Text). On macOS, this can be done by invoking `ln -s $(pwd) ~/Library/Application\ Support/Sublime\ Text/Packages/` in the directory of this repository. Uninstall the Catppuccin theme from Package Control if installed via that method. Sublime Text should now automatically reload the theme files in `build/` on change.
 
-### Contributing modifications
-1. Clone this repository and open it
-2. Apply your changes to `sublime-color-scheme.tera`
-3. Re-build the 4 flavors with `whiskers sublime-color-scheme.tera`
-  4. To install Whiskers, the Catppuccin helper tool, see https://github.com/catppuccin/whiskers
-4. Open a Pull Request!
+If you have a specific piece of code you would like to re-color, you'll need to know what scopes are being applied to the token. (Applying scopes is done by the syntax, not the color scheme.) Position your caret over the token, and use <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (or **Tools** > **Developer** > **Show Scope Name**) to show the scopes of the current token.
 
 ## 💝 Thanks to
 
