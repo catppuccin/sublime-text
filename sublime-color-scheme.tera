@@ -44,7 +44,7 @@ whiskers:
         "caret": "var(subtext1)",
         "invisibles": "color(var(overlay2) alpha(0.4))",
         "gutter_foreground": "var(overlay2)",
-        "gutter_foreground_highlight": "var(mauve)",
+        "gutter_foreground_highlight": "var(lavender)",
         "line_highlight": "color(var(text) alpha(0.07))",
         "selection": "color(var(overlay1) alpha(0.4))",
         "selection_border": "var(base)",
