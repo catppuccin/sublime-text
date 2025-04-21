@@ -51,7 +51,7 @@ git clone https://github.com/catppuccin/sublime-text.git Catppuccin
 
 If you're unfamiliar with Sublime Text color scheme development, see ["Color Schemes" in the Sublime Text documentation](https://www.sublimetext.com/docs/color_schemes.html).
 
-This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files. Edit the `sublime-color-scheme.tera` template, and run either `whiskers sublime-color-scheme.tera` or `just build` (if you have [just](https://github.com/casey/just) installed) to update the files in `build/`.
+This repository uses [Whiskers](https://github.com/catppuccin/whiskers) to generate theme files. Edit the `sublime-text.tera` template, and run `whiskers sublime-text.tera` to update the files in `build/`.
 
 For local editing, create a symlink from your local clone of this repository to the `Catppuccin` subdirectory of the `Packages` directory (revealed through the **Preferences** > **Browse Packages...** menu in Sublime Text). On macOS, this can be done by invoking `ln -s $(pwd) ~/Library/Application\ Support/Sublime\ Text/Packages/` in the directory of this repository. Uninstall the Catppuccin theme from Package Control if installed via that method. Sublime Text should now automatically reload the theme files in `build/` on change.
 
